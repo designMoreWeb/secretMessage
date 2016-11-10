@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		222E03C01DD4F91500FC36E0 /* KeychainOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222E03BE1DD4F91500FC36E0 /* KeychainOptions.swift */; };
-		222E03C11DD4F91500FC36E0 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222E03BF1DD4F91500FC36E0 /* KeychainWrapper.swift */; };
+		22A61C131DD5261C009E275C /* KeychainOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A61C111DD5261C009E275C /* KeychainOptions.swift */; };
+		22A61C141DD5261C009E275C /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A61C121DD5261C009E275C /* KeychainWrapper.swift */; };
 		22BC2D231DD4E5CC00B8EADA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BC2D221DD4E5CC00B8EADA /* AppDelegate.swift */; };
 		22BC2D251DD4E5CC00B8EADA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BC2D241DD4E5CC00B8EADA /* ViewController.swift */; };
 		22BC2D281DD4E5CC00B8EADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22BC2D261DD4E5CC00B8EADA /* Main.storyboard */; };
@@ -17,8 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		222E03BE1DD4F91500FC36E0 /* KeychainOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeychainOptions.swift; path = "../../../Guides/HackingWithSwift-master/project28-files/KeychainOptions.swift"; sourceTree = "<group>"; };
-		222E03BF1DD4F91500FC36E0 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeychainWrapper.swift; path = "../../../Guides/HackingWithSwift-master/project28-files/KeychainWrapper.swift"; sourceTree = "<group>"; };
+		22A61C111DD5261C009E275C /* KeychainOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainOptions.swift; sourceTree = "<group>"; };
+		22A61C121DD5261C009E275C /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
 		22BC2D1F1DD4E5CC00B8EADA /* secretMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = secretMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BC2D221DD4E5CC00B8EADA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22BC2D241DD4E5CC00B8EADA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,8 +42,8 @@
 		22BC2D161DD4E5CC00B8EADA = {
 			isa = PBXGroup;
 			children = (
-				222E03BE1DD4F91500FC36E0 /* KeychainOptions.swift */,
-				222E03BF1DD4F91500FC36E0 /* KeychainWrapper.swift */,
+				22A61C111DD5261C009E275C /* KeychainOptions.swift */,
+				22A61C121DD5261C009E275C /* KeychainWrapper.swift */,
 				22BC2D211DD4E5CC00B8EADA /* secretMessage */,
 				22BC2D201DD4E5CC00B8EADA /* Products */,
 			);
@@ -144,8 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				22BC2D251DD4E5CC00B8EADA /* ViewController.swift in Sources */,
-				222E03C11DD4F91500FC36E0 /* KeychainWrapper.swift in Sources */,
-				222E03C01DD4F91500FC36E0 /* KeychainOptions.swift in Sources */,
+				22A61C141DD5261C009E275C /* KeychainWrapper.swift in Sources */,
+				22A61C131DD5261C009E275C /* KeychainOptions.swift in Sources */,
 				22BC2D231DD4E5CC00B8EADA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -24,11 +24,9 @@ class ViewController: UIViewController {
             _ = KeychainWrapper.standardKeychainAccess().setString(secretMessage.text!, forKey: "SecretMessage")
             secretMessage.resignFirstResponder()
             secretMessage.isHidden = true
-            title = "Nothing to see here"
+            title = "Hello :)"
         }
     }
-    
-    
     @IBAction func displayMessage(_ sender: Any) {
         return unlockSecretMessage()
     }
